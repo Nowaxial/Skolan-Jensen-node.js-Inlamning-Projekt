@@ -5,7 +5,7 @@
 <P> <%= startingContent %> </P>
 
 
-<% posts.forEach( post => {%>   <h1> <%= post.title %> </h1> <p> <%= post.content.substring(0,100) + "..."%></p><a href="/posts/ <%= post.title %>">Read more</a>   <% }) %>
+<% posts.forEach( post => {%>   <h1> <%= post.title %> </h1> <p> <%= post.content.substring(0,100) + "..."%><a href="/posts/ <%= post.title %>">Read more</a></p>   <% }) %>
 
     
 
